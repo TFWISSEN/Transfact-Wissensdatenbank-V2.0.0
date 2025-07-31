@@ -1,0 +1,13 @@
+.markdown-preview-view img,
+.markdown-rendered img,
+.cm-preview-content img {
+  max-width: 550px !important;
+  height: auto !important;
+  display: block;
+  margin: 1.2em auto;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
+  padding: 8px;
+  background-color: #f9f9f9;
+}
