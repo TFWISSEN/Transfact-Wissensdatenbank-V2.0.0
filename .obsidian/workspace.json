@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/pps/ak-vorlagen.md",
+                "file": "docs/pps/fertigungsuebersicht.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ak-vorlagen"
+              "title": "fertigungsuebersicht"
             }
           }
         ]
@@ -170,6 +170,13 @@
   },
   "active": "6459bb8f379f32c0",
   "lastOpenFiles": [
+    "docs/crm/beleg-schnellanlage.md",
+    "docs/pps/fertigungsuebersicht.md",
+    "docs/crm/anrufliste.md",
+    "docs/pps/checklistensuche.md",
+    "docs/images/PPS_Fertigungsübersicht_Abarbeitungsliste der Ressource.png",
+    "docs/index.md",
+    "docs/pps/ak-vorlagen.md",
     "docs/pps/ak-freigaben-historie.md",
     "docs/crm/vertriebsplanung.md",
     "docs/crm/verkaufsbeleg.md",
@@ -183,10 +190,6 @@
     "docs/crm/eigene-beleguebersicht.md",
     "docs/crm/crm-artikelpreise.md",
     "docs/crm/beleguebersicht.md",
-    "docs/crm/beleg-schnellanlage.md",
-    "docs/crm/anrufliste.md",
-    "docs/pps/fertigungsuebersicht.md",
-    "docs/index.md",
     "docs/pps/simulation-fa-kapazitaet.md",
     "docs/pps/rueckmeldungen.md",
     "docs/pps/ressourcenstatus.md",
@@ -194,8 +197,6 @@
     "docs/pps/property-ak-vorlagen.md",
     "docs/pps/offene-freigabeobjekte.md",
     "docs/pps/nicht-akt-ak-revisionen.md",
-    "docs/pps/nettobedarf.md",
-    "docs/pps/losuebersicht.md",
     "docs/pps",
     "docs/crm",
     "docs/srm",
