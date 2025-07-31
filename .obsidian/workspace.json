@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "fertigungsuebersicht"
             }
+          },
+          {
+            "id": "1cffbf148707bd6b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "docs/images/pps_fb_001.png.png"
+              },
+              "icon": "lucide-image",
+              "title": "pps_fb_001.png"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,17 +107,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/pps/fertigungsuebersicht.md",
+                "file": "docs/images/pps_fb_001.png.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "fertigungsuebersicht 的反向链接列表"
+              "title": "pps_fb_001.png 的反向链接列表"
             }
           },
           {
@@ -167,20 +180,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6459bb8f379f32c0",
+  "active": "cf427cc465938682",
   "lastOpenFiles": [
-    "docs/pps/images/pps_fb_001.png",
-    "docs/pps/images/PPS_Fertigungsübersicht_Allgemein.png",
-    "docs/pps/images/PPS_Fertigungsübersicht_Fertigungsübersicht wieder sichtbar.png",
-    "docs/pps/images/PPS_Fertigungsübersicht_Los Info. im Header.png",
-    "docs/pps/images/pps_fb_012.png",
-    "docs/pps/images/pps_fb_011.png",
-    "docs/pps/images/pps_fb_010.png",
-    "docs/pps/images/pps_fb_007.png",
-    "docs/pps/images/pps_fb_009.png",
-    "docs/pps/images/pps_fb_008.png",
-    "docs/pps/images/pps_fb_006.png",
     "docs/pps/fertigungsuebersicht.md",
+    "docs/images/pps_fb_001.png.png",
+    "docs/images/PPS_Fertigungsübersicht_Allgemein.png",
+    "docs/images/PPS_Fertigungsübersicht_Fertigungsübersicht wieder sichtbar.png",
+    "docs/images/PPS_Fertigungsübersicht_Los Info. im Header.png",
+    "docs/images/pps_fb_012.png",
+    "docs/images/pps_fb_011.png",
+    "docs/images/pps_fb_010.png",
+    "docs/images/pps_fb_007.png",
+    "docs/images/pps_fb_009.png",
+    "docs/images/pps_fb_008.png",
     "docs/index.md",
     "images/PPS_Fertigungsübersicht_Von.md",
     "images",
