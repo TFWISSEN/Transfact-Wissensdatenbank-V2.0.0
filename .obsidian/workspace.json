@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 648.5
   },
   "right": {
     "id": "ab48b56d4b78db21",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/pps/ak-vorlagen.md",
+                "file": "docs/pps/fertigungsuebersicht.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "ak-vorlagen 的反向链接列表"
+              "title": "fertigungsuebersicht 的反向链接列表"
             }
           },
           {
@@ -155,8 +155,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,12 +169,24 @@
   },
   "active": "6459bb8f379f32c0",
   "lastOpenFiles": [
-    "docs/crm/beleg-schnellanlage.md",
+    "docs/pps/images/pps_fb_001.png",
+    "docs/pps/images/PPS_Fertigungsübersicht_Allgemein.png",
+    "docs/pps/images/PPS_Fertigungsübersicht_Fertigungsübersicht wieder sichtbar.png",
+    "docs/pps/images/PPS_Fertigungsübersicht_Los Info. im Header.png",
+    "docs/pps/images/pps_fb_012.png",
+    "docs/pps/images/pps_fb_011.png",
+    "docs/pps/images/pps_fb_010.png",
+    "docs/pps/images/pps_fb_007.png",
+    "docs/pps/images/pps_fb_009.png",
+    "docs/pps/images/pps_fb_008.png",
+    "docs/pps/images/pps_fb_006.png",
     "docs/pps/fertigungsuebersicht.md",
+    "docs/index.md",
+    "images/PPS_Fertigungsübersicht_Von.md",
+    "images",
+    "docs/crm/beleg-schnellanlage.md",
     "docs/crm/anrufliste.md",
     "docs/pps/checklistensuche.md",
-    "docs/images/PPS_Fertigungsübersicht_Abarbeitungsliste der Ressource.png",
-    "docs/index.md",
     "docs/pps/ak-vorlagen.md",
     "docs/pps/ak-freigaben-historie.md",
     "docs/crm/vertriebsplanung.md",
@@ -195,8 +206,6 @@
     "docs/pps/ressourcenstatus.md",
     "docs/pps/pruefplan-vorlagen.md",
     "docs/pps/property-ak-vorlagen.md",
-    "docs/pps/offene-freigabeobjekte.md",
-    "docs/pps/nicht-akt-ak-revisionen.md",
     "docs/pps",
     "docs/crm",
     "docs/srm",
@@ -205,7 +214,6 @@
     "pps",
     "docs/FIBU",
     "docs/PZE",
-    "docs/DMS",
-    "docs/LAGER"
+    "docs/DMS"
   ]
 }

@@ -25,10 +25,9 @@ Jeder Fertigungsbereich (FB) enthält mehrere Ressourcen (Arbeitsplätze). Jede 
 ### ▶ 1. Anzeige der Abarbeitungsliste eines Fertigungsbereichs
 
 Durch Klicken auf den **Namen eines Fertigungsbereichs** (z. B. `TF15-01 Montage`) 
-
-![PPS_Fertigungsübersicht_Von Fertigungsübersicht zu Abarbeitungsliste des FBs](./images/PPS_Fertigungsübersicht_Von Fertigungsübersicht zu Abarbeitungsliste des FBs.png)
+![](pps_fb_001.png)
 gelangt man zur **Abarbeitungsliste** dieses Bereichs:
-![[PPS_Fertigungsübersicht_Abarbeitungsliste des FBs..png]]
+![](pps_fb_002.png)
 - Anzeige aller Los-Aufträge in diesem Bereich;
     
 - Filtermöglichkeiten nach Losnummer, FA-Nummer, Artikel, Projekt usw.;
@@ -39,15 +38,15 @@ gelangt man zur **Abarbeitungsliste** dieses Bereichs:
 ### ▶ 2. Anzeige der Abarbeitungsliste einer Ressource
 
 Durch Klicken auf eine bestimmte **Ressourcennummer** (z. B. `1WP1`) 
-![[PPS_Fertigungsübersicht_Von Fertigungsübersicht zu Abarbeitungsliste einer Ressource.png]]gelangt man zur **Abarbeitungsliste dieser Ressourcen (Arbeitsplatz)**;
-![[PPS_Fertigungsübersicht_Abarbeitungsliste der Ressource.png]]
+![](pps_fb_003.png)gelangt man zur **Abarbeitungsliste dieser Ressourcen (Arbeitsplatz)**;
+![](pps_fb_004.png)
 - Anzeige aller Lose, die dieser Ressource zugeordnet sind.
 
 ### ▶ 3. Detailansicht eines einzelnen Loses
 
 Ist ein Los aktuell auf einer Ressource angemeldet (Bearbeitung aktiv), wird es in der Liste **fett markiert**.
-![[PPS_Fertigungsübersicht_an Ressource angemeldete Los.png]]Durch Klicken auf die **Losnummer** (z. B. 460341) öffnet sich die:
-![[PPS_Fertigungsübersicht_Losdetailansicht.png]]
+![](pps_fb_005.png)Durch Klicken auf die **Losnummer** (z. B. 460341) öffnet sich die:
+![](pps_fb_006.png)
 - **Detailansicht des Fertigungsloses** mit:
     
     - Grunddaten (Artikel, Auftrag, Kunde, Projekt);
@@ -62,22 +61,22 @@ Ist ein Los aktuell auf einer Ressource angemeldet (Bearbeitung aktiv), wird es 
 ## 🛠 Verwaltung des Ressourcenstatus
 
 Durch Klicken auf das **Zahnrad-Symbol** neben einer Ressource öffnet sich die:
-![[PPS_Fertigungsübersicht_Ressourcen Status einzustellen.png]]
+![](pps_fb_007.png)
  **Ressourcen-Status-Seite**;
-![[PPS_Fertigungsübersicht_Ressource Status Pop Fenster.png]]
+![](pps_fb_008.png)
 - Möglichkeit, den Status zu ändern (z. B. `Reparatur`);
     
 - Eingabe von voraussichtlicher Dauer und Bemerkung;
     
 - Nach Klick auf **Speichern** wird der neue Status (z. B. rot markiert) in der Fertigungsübersicht angezeigt.
 
-![[PPS_Fertigungsübersicht_Ressource Status geändert.png]]
+![](pps_fb_009.png)
 ## 🛠️ Layoutanpassung der Fertigungsübersicht
 
 ### Zugang: Button **Fertigungsübersicht verändern** (oben rechts)
-![[PPS_Fertigungsübersicht_Fertigungsübersicht verändern.png]]
+![](pps_fb_010.png)
 Im Bearbeitungsmodus:
-![[PPS_Fertigungsübersicht_Fertigungsübersicht Einstellungen.png]]
+![](pps_fb_011.png)
 - Auswahl der Spaltenanzahl: `1-spaltig` bis `8-spaltig`
     Spaltenanzahl: Bildschirmabhängige Empfehlung
     **3–4 Spalten** für schmale Bildschirme (z. B. Laptops)
@@ -102,7 +101,7 @@ Im Bearbeitungsmodus:
 
 - Per ⬆️ / ⬇️ Symbole die Reihenfolge der Bereiche anpassen
 
-![[PPS_Fertigungsübersicht_Fertigungsübersicht anzeigen.png]]
+![](pps_fb_012.png)
 - **Wichtig**: Anschließend **Fertigungsübersicht anzeigen** klicken, um neue Anordnung zu übernehmen
 ## 🔄 Zusammenfassung der Schritte
 
