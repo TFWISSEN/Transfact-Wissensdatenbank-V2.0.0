@@ -25,12 +25,14 @@
             "id": "1cffbf148707bd6b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "docs/images/pps_fb_001.png.png"
+                "file": "docs/pps/fertigungsuebersicht.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "pps_fb_001.png"
+              "icon": "lucide-file",
+              "title": "fertigungsuebersicht"
             }
           }
         ],
@@ -107,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/images/pps_fb_001.png.png",
+                "file": "docs/pps/fertigungsuebersicht.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "pps_fb_001.png 的反向链接列表"
+              "title": "fertigungsuebersicht 的反向链接列表"
             }
           },
           {
@@ -180,10 +182,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cf427cc465938682",
+  "active": "1cffbf148707bd6b",
   "lastOpenFiles": [
+    "docs/images/pps_fb_001.png",
     "docs/pps/fertigungsuebersicht.md",
-    "docs/images/pps_fb_001.png.png",
+    "docs/index.md",
     "docs/images/PPS_Fertigungsübersicht_Allgemein.png",
     "docs/images/PPS_Fertigungsübersicht_Fertigungsübersicht wieder sichtbar.png",
     "docs/images/PPS_Fertigungsübersicht_Los Info. im Header.png",
@@ -193,7 +196,6 @@
     "docs/images/pps_fb_007.png",
     "docs/images/pps_fb_009.png",
     "docs/images/pps_fb_008.png",
-    "docs/index.md",
     "images/PPS_Fertigungsübersicht_Von.md",
     "images",
     "docs/crm/beleg-schnellanlage.md",
