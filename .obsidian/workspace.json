@@ -11,10 +11,14 @@
             "id": "a6397b21f032c135",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/crm/kunden.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "kunden"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/crm/kunden.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "kunden 的反向链接列表"
             }
           },
           {
@@ -165,10 +170,10 @@
   },
   "active": "a6397b21f032c135",
   "lastOpenFiles": [
+    "docs/pps/fertigungsuebersicht.md",
     "docs/crm/kunden.md",
     "docs/crm/liefertermine.md",
     "docs/crm/anrufliste.md",
-    "docs/pps/fertigungsuebersicht.md",
     "docs/images/pps_fb_001.png",
     "docs/index.md",
     "docs/images/PPS_Fertigungsübersicht_Allgemein.png",

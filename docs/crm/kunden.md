@@ -1,5 +1,5 @@
 # Kunden
-[⬅ Zurück zur Übersicht](app://obsidian.md/index.md)
+[⬅ Zurück zur Übersicht](../index.md)
 # Funktion: CRM >> Kunden
 
 ## 1. Einleitung
