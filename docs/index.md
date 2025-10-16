@@ -43,7 +43,10 @@ Bitte wähle ein Modul aus dem Inhaltsverzeichnis:
 
 - [Artikel](pps/artikel.md)
 - [Artikelstammdaten](pps/artikelstammdaten.md)
-- [Stücklisten](stuecklisten.md)
+- [Stücklisten](pps/stuecklisten.md)
+- [Arbeitskarte](pps/arbeitskarte.md)
+- [Checklisten](pps/checklisten.md)
+- [Prüfplan](pps/pruefplan.md)
 - [Fertigungsübersicht](pps/fertigungsuebersicht.md)
 - [Losübersicht](pps/losuebersicht.md)
 - [Eigene Rückmeldungen](pps/eigene-rueckmeldungen.md)
@@ -67,7 +70,7 @@ Bitte wähle ein Modul aus dem Inhaltsverzeichnis:
 
 ## 📂 PZE (Projektzeiterfassung)
 
-- [Stundenkonto](stundenkonto.md)
+- [Stundenkonto](pze/stundenkonto.md)
 
 🚧 _Diese Dokumentation wird kontinuierlich erweitert. Seiten, die noch nicht verlinkt oder erstellt sind, befinden sich derzeit in Bearbeitung._
 
