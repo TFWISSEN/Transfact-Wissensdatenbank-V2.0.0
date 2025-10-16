@@ -63,6 +63,10 @@ Bitte wähle ein Modul aus dem Inhaltsverzeichnis:
 
 ---
 
+## 📂 PZE (Projektzeiterfassung)
+
+- [Stundenkonto](stundenkonto.md)
+
 🚧 _Diese Dokumentation wird kontinuierlich erweitert. Seiten, die noch nicht verlinkt oder erstellt sind, befinden sich derzeit in Bearbeitung._
 
 
