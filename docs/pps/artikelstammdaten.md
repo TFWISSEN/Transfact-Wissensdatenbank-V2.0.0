@@ -3,107 +3,155 @@
 ## Einleitung
 
 ### Zweck  
-Die Funktion **Artikel** ist das Herzstück des Moduls **PPS**.  
-Sie dient nicht nur der Anlage, Pflege, Suche von Artikeln, sondern stellt sicher, dass alle nachgelagerten Prozesse – vom Einkauf über die Fertigung bis zur Buchhaltung – auf konsistenten Stammdaten basieren.  
-Mit ihr verwalten Sie sowohl Materialien als auch Dienstleistungen und steuern interne Fertigungsaufträge.  
+Die Artikelstammdaten bilden die zentrale Informationsbasis im Transfact-System.  
+Sie definieren, wie ein Artikel beschrieben, klassifiziert, bepreist und in Prozessen (Produktion, Einkauf, Vertrieb) verwendet wird.  
 
 ### Einsatzbereich  
-Diese Funktion wird im Modul **PPS** eingesetzt. Sie unterstützt Anwender bei der Arbeit mit Artikelstammdaten, Stücklisten, Arbeitskarten sowie bei der internen Steuerung von Fertigungsaufträgen.  
+Dieses Kapitel gehört zum Modul **PPS**.  
+Es unterstützt Anwender bei der strukturierten Pflege von Artikelinformationen, Stücklisten, Arbeitskarten, Parametern, Preisen, Einheiten und Zuständigkeiten.  
 
 ### Voraussetzungen  
-- Zugriff auf das Modul **PPS**  
-- Berechtigung zum Anlegen, Bearbeiten von Artikeln   
+- Zugriff auf das Modul **PPS > Artikel**  
+- Berechtigung zum Anzeigen und Bearbeiten von Artikeldaten  
+- Vorbereitete Stammdaten wie Nummer, Beschreibung, Konten, Parameter oder Preisinfos  
 
 ---
 
 ## Schritt-für-Schritt-Anleitung
 
-### Artikel suchen
-1. Öffnen Sie im Menü **PPS > Artikel**.  
-2. Geben Sie passende **Filterkriterien** ein, um die Suche einzugrenzen.  
-3. Wählen Sie das **Ausgabeformat** (HTML oder Excel).  
-4. Klicken Sie auf **Abfrage starten**.  
-
----
-
-### Artikel anlegen
-1. Klicken Sie auf das **grüne Pluszeichen**.  
-2. Erfassen Sie die wichtigsten Parameter:  
-   - **Beschreibung 1** (Pflichtfeld)  
-   - **Artikelart** (Pflichtfeld)  
-   - **Artikelnummer** (optional: Eingabe möglich, ansonsten wird eine Systemnummer vergeben)  
-   - **Zeichnungsnummer** (optional)  
-   - Weitere relevante Informationen können je nach Bedarf ergänzt werden.  
+### Erster Überblick der Artikelstammdaten
+1. Öffnen Sie die Artikelstammdaten, z. B. über **PPS > Artikel > Abfrage starten > Artikel Nr.**.  
+   Hinweis: Häufig genügt ein Klick auf eine mit Hyperlink versehene **Artikelnummer**, um direkt in die Stammdaten zu springen.  
+2. Oben finden Sie eine **Schnellübersicht** zu Lagerbestand, Bestellungen und Kundenaufträgen.  
+3. In der Detailansicht sehen Sie alle relevanten Informationen:  
+   - links die **Allgemeinen Informationen**,  
+   - in der Mitte die **Produktionsangaben** (z. B. Stückliste oder Arbeitskarte), 
+   - und rechts die **buchhalterischen Daten**.  
+#### Stückliste hinzufügen
+1. Klicken Sie auf das **grüne Pluszeichen** neben „Aktuelle Stückliste“.  
+2. Geben Sie eine **Beschreibung** ein.  
 3. **Speichern** Sie die Eingaben.  
-   - Nach dem Speichern öffnet sich automatisch die **Artikelstammdaten** des neu angelegten Artikels.  
-   - Angezeigt wird zunächst die **Übersicht**; weitere Reiter wie **Allgemein** oder **Freigabeobjekte** stehen zur Verfügung.  
-   - Wenn Sie eine Artikelnummer eingegeben haben, wird diese angezeigt. Haben Sie keine eingegeben, vergibt das System automatisch eine Nummer.  
-4. Achten Sie auf die Felder **Erlöskonto** und **Aufwandskonto** für die Buchhaltung.  
-
----
-
-### Artikel kopieren
-Das Kopieren eines Artikels ermöglicht es, einen bestehenden Artikel inklusive seiner Stammdaten als Vorlage für einen neuen Artikel zu verwenden.  
-Der neue Artikel enthält dabei automatisch einen **Referenzartikel**, der auf den Ursprung verweist.  
-
-**Variante 1 – Kopieren aus der Artikelliste**  
-1. Klicken Sie in der Artikelliste auf das Symbol **Artikel kopieren** (zwei übereinanderliegende Blätter).  
-2. Eine neue Maske öffnet sich. Der kopierte Artikel wird mit einer neuen Artikelnummer angezeigt.  
-3. Im Feld **Referenzartikel** ist der ursprüngliche Artikel automatisch eingetragen.  
-
-**Variante 2 – Kopieren aus den Artikelstammdaten**  
-1. Öffnen Sie die Stammdaten des gewünschten Artikels.  
-2. Klicken Sie oben rechts auf **Artikel kopieren**.  
-3. Auch hier wird ein neuer Artikel erzeugt. Im Feld **Referenzartikel** erscheint der ursprüngliche Artikel.  
-
-**Hinweis:**  
-- Die neue Artikelnummer wird automatisch vergeben.  
-- Der neue Artikel übernimmt grundlegende Stammdaten vom Referenzartikel, kann aber individuell angepasst werden.  
-
----
-
-### Stückliste hinzufügen
-1. Klicken Sie auf das **grüne Pluszeichen**, abhängig vom Kontext:  
-   - Im **PPS Artikel**-Hauptfenster (nach **Abfrage starten**) klicken Sie in der Spalte **Stückliste** auf das **grüne Pluszeichen**.  
-   - In den **Artikelstammdaten** klicken Sie neben **Aktuelle Stückliste** auf das **grüne Pluszeichen**.  
-2. Geben Sie eine **Beschreibung** und weitere Informationen ein.  
+4. Die Stückliste erscheint in der Artikelseite.  
+*Hinweis: Die inhaltliche Definition der Stückliste erfolgt separat im Kapitel Stücklisten.*  
+#### Arbeitskarte hinzufügen
+1. Klicken Sie auf das **grüne Pluszeichen** neben „Aktuelle Arbeitskarte“.  
+2. Geben Sie eine **Beschreibung** ein.  
 3. **Speichern** Sie die Eingaben.  
-4. Die neue Stückliste erscheint anschließend in der Artikelseite.  
+4. Die Arbeitskarte erscheint in der Artikelseite.  
+*Hinweis: Die Ausgestaltung der Arbeitskarte erfolgt separat im Kapitel Arbeitskarte.*  
 
 ---
 
-### Arbeitskarte hinzufügen
-1. Klicken Sie auf das **grüne Pluszeichen**, abhängig vom Kontext:  
-   - Im **PPS Artikel**-Hauptfenster (nach **Abfrage starten**) klicken Sie in der Spalte **Arbeitskarte** auf das **grüne Pluszeichen**.  
-   - In den **Artikelstammdaten** klicken Sie neben **Aktuelle Arbeitskarte** auf das **grüne Pluszeichen**.  
-2. Geben Sie eine **Beschreibung** und weitere Informationen ein.  
-3. **Speichern** Sie die Eingaben.  
-4. Die neue Arbeitskarte erscheint anschließend in der Artikelseite.  
+### Reiter Allgemein
+1. Klicken Sie auf den Reiter **Allgemein**.  
+2. Pflegen Sie grundlegende Artikelinformationen wie:  
+   - **Beschreibung, Artikelart**  
+   - **Produktionsbezogene Angaben** (Losgröße, Zeichnungen, Seriennummern)  
+   - **Lagerparameter** (Lagerplatz, Mindestbestand, Wiederbeschaffungszeit)  
+   - **Buchhalterische Daten** (Konten, Steuersätze)  
+   - **Verknüpfte Dokumente/Bilder**  
+
+#### Automatische Bestellungen
+1. Aktivieren Sie das Feld **Automatische Bestellungen aktivieren**, wenn der Artikel automatisch disponiert werden soll.  
+2. Hinterlegen Sie eine **Mindestbestellmenge**, die den Bestellvorschlag auslöst.  
+3. Aktivieren Sie bei Bedarf **Reservierungen berücksichtigen**, damit auch reservierte Mengen in die Bedarfsberechnung einfließen.  
 
 ---
 
-### Freigabe von Stückliste und Arbeitskarte
-1. Suchen Sie den gewünschten Artikel (z. B. **TF-HK-1203**).  
-2. Klicken Sie auf den **grünen Haken**, abhängig vom Kontext:  
-   - Im **PPS Artikel**-Hauptfenster (nach **Abfrage starten**) klicken Sie in der Spalte **Stückliste** oder **Arbeitskarte** auf den **grünen Haken**.  
-   - In den **Artikelstammdaten** wechseln Sie in den Reiter **Freigabeobjekte** und klicken in der entsprechenden Zeile (Stückliste oder Arbeitskarte) auf den **grünen Haken**.  
-3. Bestätigen Sie die Freigabe mit **OK**.  
-4. Hinweis: Wenn die Arbeitskarte Objekte wie **Checkliste** oder **Prüfplan** enthält, müssen diese zuerst freigegeben werden.  
+### Reiter Freigabeobjekte
+1. Klicken Sie auf den Reiter **Freigabeobjekte**.  
+2. Hier werden Stücklisten und Arbeitskarten angezeigt, die dem Artikel zugeordnet sind.  
+3. Erst nach der **Freigabe** können diese Objekte in nachfolgenden Prozessen (z. B. Fertigungslos, Produktion) verwendet werden.  
 
 ---
 
-### FA intern einsteuern
-1. Öffnen Sie die Funktion **FA intern einsteuern**, abhängig vom Kontext:  
-   - Im **PPS Artikel**-Hauptfenster (nach **Abfrage starten**) klicken Sie in der Spalte **Aktion** auf das Symbol mit den **zwei Zahnrädern**.  
-   - In den **Artikelstammdaten** klicken Sie im Reiter **Übersicht** auf **Los(e)/FA intern einsteuern** (Symbol mit den **zwei Zahnrädern**).  
-2. Erfassen oder prüfen Sie die Angaben.  
-3. **Speichern** Sie die Eingaben.  
-4. Der Fertigungsauftrag wird intern gesteuert.  
+### Reiter Artikelparameter / Klassifizierung
+1. Klicken Sie auf den Reiter **Artikelparameter / Klassifizierung**.  
+2. Erfassen Sie technische, physikalische oder funktionale Eigenschaften (z. B. Maße, Funktionsumfang).  
+   - Parameter können direkt am Artikel erfasst oder aus Vorlagen übernommen werden.  
+   - Über die Option **Losanzeige** legen Sie fest, welche Parameter auch in Fertigungslosen sichtbar sind.  
+   - Mit Sprachfeldern können Sie Werte mehrsprachig pflegen.  
+   - Hinweis: Ab **Version 20770** wird das Feld **Gewicht** nicht mehr hier, sondern in den **Artikeleinheiten** gepflegt.  
+
+---
+### Reiter Artikelpreise
+1. Klicken Sie auf  den Reiter **Artikelpreise**.  
+2. Verwalten Sie die Preisgestaltung für Verkauf (VK) und Einkauf (EK).  
+
+- **Verkauf**  
+  - Standard-Verkaufspreis hinterlegen  
+  - Kundenbezogene **Preiskonditionen (VK)** pflegen  
+  - Preisgruppenregeln nutzen (z. B. Vertriebspartner-Gruppe)  
+
+- **Einkauf**  
+  - Standard-EK-Festpreis hinterlegen  
+  - Lieferantenspezifische **Preiskonditionen (EK)** pflegen  
+
+- **Herstellkosten**  
+  - **Cost-Roll durchführen**: vollständige Kalkulation inklusive Stücklistenstruktur  
+  - **Partiellen Cost-Roll durchführen**: Kalkulation nur für Hauptartikel und direkt verknüpfte Komponenten  
+
+- **Preis-Historie**  
+  - Zeitliche Entwicklung von VK- und EK-Preisen grafisch und tabellarisch darstellen  
+  - Filter (Zeitraum, Gruppierung) anwenden  
+  - Mit **Abfrage starten** aktualisieren  
+
+- **IST-Preis (Fertigung)**  
+  - Tatsächliche Herstellkosten pro Zeitraum auf Basis realer Fertigungsdaten einsehen  
+
+---
+
+### Reiter Artikeleinheiten
+1. Klicken Sie auf den Reiter **Artikeleinheiten**.  
+2. Definieren Sie die **Basiseinheit** (z. B. Stück).  
+3. Legen Sie bei Bedarf **alternative Mengeneinheiten** fest (z. B. Karton, Palette).  
+4. Pflegen Sie die **Umrechnungsfaktoren** zur Basiseinheit.  
+5. Bestimmen Sie, ob eine Einheit **teilbar** oder nur als Ganzes nutzbar ist.  
+*Hinweis: Diese Einstellungen wirken sich auf Preisberechnung, Lagerverwaltung und Belegerstellung aus.*  
+
+---
+
+### Reiter Externe Artikelnummern
+1. Klicken Sie auf den Reiter **Externe Artikelnummern**.  
+2. Hinterlegen Sie pro Artikel die **externe Nummer** von Kunden oder Lieferanten.  
+3. Ergänzen Sie optional eine Beschreibung sowie Erstell-/Änderungsdatum.  
+4. Nutzen Sie diese Funktion für:  
+   - eindeutige Artikelzuordnung im Belegdruck (Bestellung, Lieferschein, Rechnung),  
+   - Vermeidung von Nummernverwechslungen,  
+   - automatische Zuordnung im Kunden- oder Lieferantenstamm.  
+5. Die Zuordnungen sind **wechselseitig sichtbar** – gepflegte externe Nummern erscheinen auch im Kunden- oder Lieferantenstamm.  
+
+---
+
+### Reiter Loshistorie
+1. Klicken Sie auf den Reiter **Loshistorie**.  
+2. Nutzen Sie die Filter links:  
+   - **Anzahl Treffer** (leer lassen = alle Lose),  
+   - **Status** (geplant, angelaufen, beendet usw.),  
+   - **Ausgabeformat** (HTML, Excel),  
+   - **Abfrage starten** zur Aktualisierung.  
+3. Prüfen Sie rechts den **aktuellen Losstatus** (Geplant, Angelaufen, Beendet, Gesperrt, Gutteile, Ausschussteile, %-Ausbeute).  
+4. Daneben sehen Sie die **Historie abgeschlossener Lose** mit Kennzahlen zu Stückzahl, Ausschuss und %-Ausbeute über Zeiträume.  
+
+---
+
+### Reiter Ansprechpartner
+1. Klicken Sie auf den Reiter **Ansprechpartner**.  
+2. Erfassen oder prüfen Sie Zuständigkeiten (z. B. QS-Verantwortlicher, Einkäufer, technischer Ansprechpartner).  
+3. Beachten Sie: Eine Zuordnung im Artikelstamm erscheint automatisch auch im Kunden- oder Lieferantenstamm im Reiter **Artikelzuordnungen**.  
+4. Beispiel: Ein QS-Verantwortlicher für einen Artikel ist sowohl im Artikelstamm als auch im Kundenstamm sichtbar.  
 
 ---
 
 ## Zusammenfassung
-Die Funktion **Artikel** bildet die Basis für verlässliche Stammdaten im gesamten Unternehmen.  
-Mit ihr können Artikel neu angelegt oder bestehende kopiert werden.  
-Zusätzlich lassen sich Stücklisten und Arbeitskarten hinzufügen, freigeben und Fertigungsaufträge intern steuern.  
-So behalten Sie jederzeit den Überblick und vermeiden Fehler in nachgelagerten Prozessen.  
+Die Artikelstammdaten verbinden technische, organisatorische und kaufmännische Informationen in einem zentralen Bereich.  
+- Im Reiter **Allgemein** pflegen Sie Basisdaten und Dispositionslogik.  
+- In **Freigabeobjekte** steuern Sie Stücklisten und Arbeitskarten.  
+- Mit **Artikelparameter** dokumentieren Sie technische Eigenschaften.  
+- Über **Artikelpreise** regeln Sie Verkauf, Einkauf und Kalkulation.  
+- **Artikeleinheiten** sichern korrekte Mengenumrechnungen.  
+- **Externe Artikelnummern** stellen eindeutige Kommunikation mit Kunden und Lieferanten sicher.  
+- **Loshistorie** liefert Produktionskennzahlen.  
+- **Ansprechpartner** schaffen Transparenz in der Verantwortlichkeit.  
+
+Damit erhalten Sie eine konsistente Grundlage für alle Prozesse in Produktion, Einkauf und Vertrieb.

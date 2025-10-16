@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/pze/stundenkonto.md",
+                "file": "docs/index.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "stundenkonto"
+              "title": "index"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/pze/stundenkonto.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "stundenkonto 的反向链接列表"
+              "title": "index 的反向链接列表"
             }
           },
           {
@@ -185,23 +185,34 @@
   },
   "active": "4ceb2ab62a2063af",
   "lastOpenFiles": [
+    "docs/pps/operator-screen.md",
+    "docs/index.md",
+    "docs/pps/losdetailansicht.md",
+    "docs/pps/fa-detailansicht.md",
+    "docs/pps/fa-intern-einsteuern.md",
+    "pps",
+    "docs/pps/nettobedarf.md",
+    "docs/pps/rueckmeldungen.md",
+    "docs/pps/kapazitaetsplanung.md",
+    "docs/pps/losuebersicht.md",
+    "docs/pps/fertigungsuebersicht.md",
     "docs/pps/pruefplan.md",
+    "docs/pps/checklistensuche.md",
+    "docs/pps/durchsatzbericht.md",
+    "docs/pps/eigene-rueckmeldungen.md",
+    "docs/pps/offene-freigabeobjekte.md",
+    "docs/pps/property-ak-vorlagen.md",
+    "docs/pps/pruefplan-vorlagen.md",
+    "docs/pps/ressourcenstatus.md",
     "docs/pps/checklisten.md",
+    "docs/pps/artikelstammdaten.md",
+    "docs/pze/stundenkonto.md",
     "docs/pps/arbeitskarte.md",
     "docs/pps/stuecklisten.md",
-    "docs/pps/artikelstammdaten.md",
     "docs/pps/artikel.md",
     "docs/crm/kunden.md",
-    "docs/index.md",
-    "docs/pps/fertigungsuebersicht.md",
-    "pps",
-    "docs/pze/stundenkonto.md",
     "docs/pps/artikel-cockpit.md",
-    "docs/crm/beleguebersicht.md",
-    "docs/crm/vertriebsplanung.md",
     "docs/pze",
-    "docs/crm/liefertermine.md",
-    "docs/crm/anrufliste.md",
     "docs/images/pps_fb_001.png",
     "docs/images/PPS_Fertigungsübersicht_Allgemein.png",
     "docs/images/PPS_Fertigungsübersicht_Fertigungsübersicht wieder sichtbar.png",
@@ -212,18 +223,7 @@
     "docs/images/pps_fb_007.png",
     "docs/images/pps_fb_009.png",
     "docs/images/pps_fb_008.png",
-    "images/PPS_Fertigungsübersicht_Von.md",
     "images",
-    "docs/crm/beleg-schnellanlage.md",
-    "docs/pps/checklistensuche.md",
-    "docs/pps/ak-vorlagen.md",
-    "docs/pps/ak-freigaben-historie.md",
-    "docs/crm/verkaufsbeleg.md",
-    "docs/crm/statistik.md",
-    "docs/crm/raumuebersicht.md",
-    "docs/crm/objekte.md",
-    "docs/crm/faellige-vertraege.md",
-    "docs/crm/ereignisse.md",
     "docs/pps",
     "docs/crm",
     "docs/srm",
