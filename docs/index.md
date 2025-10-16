@@ -42,6 +42,8 @@ Bitte wähle ein Modul aus dem Inhaltsverzeichnis:
 ## 📂 PPS (Produktionsplanung und -steuerung)
 
 - [Artikel](pps/artikel.md)
+- [Artikelstammdaten](pps/artikelstammdaten.md)
+- [Stücklisten](stuecklisten.md)
 - [Fertigungsübersicht](pps/fertigungsuebersicht.md)
 - [Losübersicht](pps/losuebersicht.md)
 - [Eigene Rückmeldungen](pps/eigene-rueckmeldungen.md)
