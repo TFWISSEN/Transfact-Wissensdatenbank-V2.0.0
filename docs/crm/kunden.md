@@ -1,207 +1,60 @@
 # Kunden
 [⬅ Zurück zur Übersicht](../index.md)
-# Funktion: CRM >> Kunden
+## Einleitung
 
-## 1. Einleitung
+- **Zweck**  
+  Die Funktion **Kunden** ermöglicht es Anwendern, bestehende Kunden gezielt zu suchen und neue Kunden im System anzulegen. Sie bildet die Grundlage für die Pflege von Kundenstammdaten im gesamten CRM-Modul.  
 
-Die Funktion **Kunden** dient der Anlage, Suche und Verwaltung von Kundenstammdaten. Diese Stammdaten bilden die Basis für nahezu alle weiteren CRM-Prozesse wie Angebote, Aufträge, Rechnungen sowie für die Integration mit ADMIN (z. B. E-Mail Client) und PPS (z. B. Artikel).  
-Voraussetzung: Zugriffsrechte im Modul CRM.  
+- **Einsatzbereich**  
+  Diese Funktion wird im Modul **CRM** eingesetzt. Sie kommt überall dort zum Einsatz, wo Kundeninformationen erfasst, geprüft oder aktualisiert werden – etwa bei Belegen oder Ereignissen.
 
-## 2. Schritt-für-Schritt-Anleitung
-
-1. **Kunden suchen nach Firmennamen**
-    Menü: **CRM → Kunden**
-    - Stichwort in das Feld _Firmenname_ eingeben.
-        
-    - System zeigt alle passenden Kunden an.
-        
-    - Je mehr Zeichen, desto präziser die Treffer.
-        
-    - Gewünschten Kunden auswählen.
-          
-2. **Kunden suchen mit anderen Filterkriterien**
-    
-    - Filter definieren (z. B. Belegdatum).
-        
-    - Auf „Abfrage starten“ klicken.
-        Wenn nur ein Kunde gefunden wird → Kundenstammdaten-Firmenname-Seite öffnet sich direkt.
-    - Wenn mehrere Kunden gefunden werden → Ergebnisliste zeigt alle passenden Kunden 
-        → gewünschten Kundennamen in der Liste anklicken → Kundenstammdaten-Firmenname-Seite öffnet sich. 
-1. **Neuen Kunden anlegen**
-    
-    - „Kunde anlegen“ klicken → Pop-up öffnet sich.
-        
-    - Pflichtfelder:
-        
-        - Kundentyp (Firma oder Person)
-            
-        - Firmenname (bei Person Vor- und Nachname)
-            
-    - Optionale Zusatzdaten eingeben.
-        
-    - „Speichern“ klicken → System erzeugt automatisch eine Kundennummer (z. B. 168888).
-        
-    - Weiterleitung auf die Kundenstammdaten-Firmenname-Seite mit allen Basisinformationen.
-        
-
-## 3. Best Practices
-
-- Suchanfragen möglichst durch Filter eingrenzen, um Ladezeiten zu reduzieren.
-    
-- Einheitliche Namenskonventionen (z. B. Schreibweise von Firmen) festlegen.
-    
-
-## 4. Vorteile
-
-- Schnelle und gezielte Suche nach Kundeninformationen.
-    
-- Konsistente Datenbasis für alle CRM- und PPS-Funktionen.
-    
-- Automatische Kundennummer verhindert Dubletten.
-    
-- Effiziente Weiterverarbeitung in Angeboten, Verträgen und Rechnungen.
-    
-
-## 5. Verknüpfte Module
-
-- **CRM:** Ereignisse, Anrufliste, Verkaufsbeleg anlegen
-    
-- **ADMIN:** E-Mail Client
-    
-- **PPS:** Artikel
-    
-
-## 6. Zusammenfassung
-
-Die Funktion **Kunden** ist die zentrale Basis für das gesamte CRM-Modul. Sie gewährleistet, dass Geschäftspartnerdaten vollständig, konsistent und systemweit verfügbar sind. Besonders nützlich ist diese Funktion beim Aufbau einer sauberen Stammdatenbasis für Vertrieb und Kundenservice.
+- **Voraussetzungen**  
+  - Zugriff auf das Modul **CRM > Kunden**  
+  - Berechtigung zur Anlage und Pflege von Kundendaten  
+  - Basisdaten des Kunden (z. B. Firmenname oder Personendaten)  
 
 ---
 
-# Funktion: CRM >> Kundenstammdaten
+## Schritt-für-Schritt-Anleitung
 
-## 1. Einleitung
+### Kundensuche nach Firmennamen
+1. Öffnen Sie **CRM > Kunden**.  
+2. Geben Sie Stichwörter in das Feld **Firmennamen** ein.  
+3. Das System zeigt alle passenden Kunden im **Vorschlagsfenster** an.  
+4. Wählen Sie den gewünschten Kunden aus.  
+5. Optional: Sie können auch nach **Stadt** oder **Telefonnummer** suchen. Diese Angaben werden ebenfalls berücksichtigt.  
+6. Je mehr Zeichen eingegeben werden, desto genauer ist die Trefferanzeige.  
 
-Die Funktion **Kundenstammdaten** dient der strukturierten Erfassung und Pflege aller relevanten Kundeninformationen. Sie ist Grundlage für Angebote, Verträge, Rechnungen und wird in vielen weiteren Modulen wie PPS (z. B. Artikel), SRM (Lieferantenverknüpfung) oder ADMIN (z. B. E-Mail Client) verwendet.  
+**Beispiel:**  
+Bei Eingabe eines allgemeinen Suchbegriffs werden mehrere Kunden angezeigt, deren Namen die eingegebene Zeichenkette enthalten.  
 
-## 2. Schritt-für-Schritt-Anleitung
-#### Kunden aufrufen
+---
 
-Kunden suchen mit Filtern
-   - Menü: **CRM → Kunden → Abfrage starten**
- Alternative Wege:
-- Direkt aus einem verknüpften Beleg, Ereignis oder der Anrufliste.
-- Über die Globale Suche (Kundennummer oder Name eingeben, Beleg auswählen).
+### Kundensuche nach Filterkriterien
+1. Öffnen Sie **CRM > Kunden**.  
+2. Geben Sie den gewünschten **Suchbegriff** ein.  
+3. Klicken Sie auf **Abfrage starten**.  
+4. Das System zeigt alle Kunden an, die den gesetzten Kriterien entsprechen.  
+5. Beispiel: Geben Sie im Feld **Anlagedatum** ein bestimmtes Datum ein, um alle Kunden anzuzeigen, die an diesem Tag angelegt wurden.  
 
-- **Reiter Firmenname**
-    
-    - Zusammenfassung der wichtigsten Inhalte aus allen Reitern.
-        
-    - Ermöglicht schnellen Überblick über den Kunden.
-        
-- **Pflicht-Reiter bei neuem Kunden**
-    
-    - Allgemein
-        
-    - Ansprechpartner
-        
-    - Adressen
-        
-    - Bankverbindungen
-        
-    - Finanzen
-        
-- **Reiter Allgemein**
-    
-    1. Allgemeine Informationen, Kontaktdaten, Branchen, Hinweistexte erfassen.
-        
-    2. Status setzen/prüfen:
-       Aktiv-Status:  
-          **Aktiv** → Kunde für Belege nutzbar
-          **Nicht aktiv** → Keine Belege möglich
-      Gesperrt-Status setzen:  
-         **Gesperrt** (bei aktivem Kunden) → Nur Angebote möglich, keine Aufträge
-         **Nicht gesperrt** → Angebote und Aufträge möglich   
-        
-    3. Kontaktdaten über „+“ hinzufügen (E-Mail, Telefon, Website).
-        
-    4. Hinweistext pflegen (z. B. „Nur Vorkasse“).
-        
-- **Reiter Ansprechpartner**
-    
-    - „Neuen Ansprechpartner anlegen“ → Pop-up → Daten eingeben und speichern.
-        
-- **Reiter Adressen**
-    
-    - Hauptadresse mit Stiftsymbol bearbeiten.
-        
-    - Zusätzliche Adressen durch „+ Neue Adresse anlegen“ hinzufügen (z. B. separate Lieferadresse).
-        
-- **Reiter Bankverbindungen**
-    
-    - Bankkonto hinzufügen → System zeigt gespeicherte Daten im Reiter.
-        
-- **Reiter Finanzen**
-    
-    - Felder wie Debitorenkonto, Zahlungsart, Zahlungsziel, USt-IdNr., HR-Nr. pflegen.
-        
-    - Sicherheitsstufen zuordnen.
-        (Abhängig von Systemfunktion und Benutzerrechten)
-- **Weitere Reiter**
-    
-    - **Objektzuordnungen**: Kunden Objekten (z. B. Gebäuden) zuordnen.
-        
-    - **Verträge**: Neuen Vertrag anlegen (Abrechnungszeitraum, Referenz).
-        
-    - **Artikelzuordnungen**: Ansprechpartner bestimmten Artikeln zuordnen.
-        
-    - **Projekte**: Projektdaten erfassen.
-        
-    - **Preiskonditionen**: Artikelpreise hinterlegen.
-        
-    - **Externe Artikelnummern**: Kundenspezifische Nummern pflegen.
-        
-    - **Statistik**: Umsatz, Auftragsvolumen, Zahlungen.
-        
-    - **Zusatzinformationen**: Parameter aus ADMIN → Properties pflegen.
-        
-    - **Creditreform**: Auskünfte abrufen (falls Zugangsdaten in ADMIN > Einstellungen > FiBu hinterlegt).
-        
-    - **Historie**: Änderungen am Zahlungsziel oder Status (aktiv/gesperrt) automatisch dokumentiert.
-        
+---
 
-## 3. Best Practices
+### Kunde anlegen
+1. Klicken Sie auf **Kunde anlegen**.  
+2. Das Pop-up-Fenster **Kunde anlegen** öffnet sich.  
+3. Geben Sie die Pflichtfelder ein:  
+   - **Kundentyp** (Firma oder Person)  
+   - **Firmenname** (oder Vor- und Nachname bei einer Person)  
+4. Ergänzen Sie weitere optionale Informationen, sofern verfügbar.  
+5. Klicken Sie auf **Speichern**.  
+6. Das System wechselt zur Startseite des neu angelegten Kunden.  
+   - Dort werden die grundlegenden Informationen und die automatisch generierte **Kundennummer** angezeigt (z. B. 168888).  
+7. Weitere Informationen zu Detailpflege und Stammdaten finden Sie im Kapitel **Kundenstammdaten**.   
 
-- Bei Neuanlage sofort alle Pflicht-Reiter vollständig ausfüllen.
-    
-- Hinweistexte nutzen, um Vertriebsprozesse abzusichern (z. B. „Vorkasse erforderlich“).
-    
-- Verträge und Preiskonditionen regelmäßig prüfen und aktualisieren.
-    
+---
 
-## 4. Vorteile
-
-- Vollständige 360°-Sicht auf den Kunden.
-    
-- Integration mit PPS, SRM und ADMIN sichert durchgängige Prozesse.
-    
-- Automatische Dublettenprüfung über Kundennummer.
-    
-- Unterstützung für Preispolitik, Projektmanagement und Vertragsverwaltung.
-    
-
-## 5. Verknüpfte Module
-
-- **CRM:** Ereignisse, Verkaufsbelege, Anrufliste
-    
-- **PPS:** Artikel>Artikelzuordnungen
-    
-- **FIBU:** Geschäftspartner
-    
-- **ADMIN:** Properties (Parameter, E-Mail, FiBu)
-    
-
-## 6. Zusammenfassung
-
-Die **Kundenstammdaten** sind die Schaltzentrale für alle Kundeninformationen im System. Sie sichern eine konsistente Datenbasis für Vertrieb, Service, Projektmanagement und Finanzprozesse. Besonders wertvoll sind sie für Unternehmen, die Wert auf transparente Kundenhistorie und saubere Vertrags- und Preisdaten legen.
+## Zusammenfassung
+Die Funktion **Kunden** im Modul **CRM** bietet eine zentrale Arbeitsoberfläche zur effizienten Suche und Anlage von Kunden.  
+Sie erleichtert die tägliche Arbeit, unterstützt eine strukturierte Datenpflege und sorgt für eine konsistente Verwaltung der Kundeninformationen im gesamten System. 
 
 

@@ -14,6 +14,7 @@ Typische Einsatzbereiche sind Fertigungsplanung, Qualitätssicherung und Produkt
 - Zugriff auf das Modul **PPS > Artikel**  
 - Berechtigung zum Anzeigen und Bearbeiten von Arbeitskarten und Checklisten  
 - Definition relevanter **Checklisten-Typen** in **ADMIN > Properties > AS-Checklisten-Typen**  
+
 ---
 
 ## Schritt-für-Schritt-Anleitung

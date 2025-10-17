@@ -47,9 +47,8 @@
    - **Urlaubskonto anpassen** – öffnet das Fenster zur manuellen Anpassung des Urlaubskontos.  
    - **Hinweis:**  
      1. Die Nutzung der oben genannten Funktionen in der Spalte Aktion setzt entsprechende **Benutzerrechte** voraus.  
-     2. Durch Klick auf **Stundenkonto anpassen** oder **Urlaubskonto anpassen** über die Symbole in der Spalte Aktion wird der Mitarbeiter automatisch aus der entsprechenden Tabellenzeile übernommen.  
-5. Dieselben Funktionen stehen auch oberhalb der Ergebnisliste als Buttons zur Verfügung.  
-   - In diesem Fall ist **kein Mitarbeiter vorausgewählt** – der gewünschte Mitarbeiter muss manuell ausgewählt werden.  
+     2. Durch Klick auf **Stundenkonto anpassen** oder **Urlaubskonto anpassen** über die Symbole in der Spalte Aktion wird der Mitarbeiter automatisch aus der entsprechenden Tabellenzeile übernommen. 
+     3. Dieselben Funktionen stehen auch oberhalb der Ergebnisliste als Buttons zur Verfügung. In diesem Fall ist **kein Mitarbeiter vorausgewählt** – der gewünschte Mitarbeiter muss manuell ausgewählt werden.  
 
 ---
 

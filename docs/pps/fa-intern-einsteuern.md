@@ -23,6 +23,7 @@ Sie wird verwendet, wenn für einen Artikel interne Lose erstellt werden, um Fer
 1. Öffnen Sie **PPS > Artikel > Abfrage starten > Artikel Nr.**  
 2. Klicken Sie in der Spalte **Aktion** auf das Symbol mit den **zwei Zahnrädern** – **Los(e)/FA intern einsteuern**.  
 3. Alternativ können Sie in den **Artikelstammdaten** auf **Los(e)/FA intern einsteuern** klicken.  
+
 ---
 
 ### Rückwärts- / Vorwärtsterminierung  
