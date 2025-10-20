@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/pze/stundenkonto.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "stundenkonto"
             }
           },
           {
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/pze/stundenkonto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "index 的反向链接列表"
+              "title": "stundenkonto 的反向链接列表"
             }
           },
           {
@@ -199,8 +199,10 @@
   },
   "active": "d5666100229105c4",
   "lastOpenFiles": [
-    "docs/fibu/bankkonten.md",
+    "docs/crm/anrufliste.md",
     "docs/index.md",
+    "docs/pps/pruefplan.md",
+    "docs/fibu/bankkonten.md",
     "docs/admin/benutzerverwaltung.md",
     "docs/pze/stundenkonto.md",
     "docs/pze/eigene-stempelzeiten.md",
@@ -224,8 +226,6 @@
     "docs/fibu/b-t-matching.md",
     "docs/fibu/transaktionen-buchungen.md",
     "docs/fibu/liquiditaetsplanung.md",
-    "docs/fibu/geschaeftspartner.md",
-    "docs/fibu/fibu-exporte.md",
     "docs/fibu",
     "docs/admin",
     "pps",

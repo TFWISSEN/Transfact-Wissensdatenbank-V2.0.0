@@ -1,5 +1,5 @@
 
-Willkommen in der interaktiven Wissensdatenbank für das Transfact ERP-System!  
+Willkommen in der Wissensdatenbank für das Transfact ERP-System!  
 Bitte wähle ein Modul aus dem Inhaltsverzeichnis:
 
 ---
@@ -7,7 +7,7 @@ Bitte wähle ein Modul aus dem Inhaltsverzeichnis:
 ## 📂 CRM (Customer Relationship Management)
 
 - [Kunden](crm/kunden.md)
-- [Kundenstammdaten](kundenstammdaten.md)
+- [Kundenstammdaten](crm/kundenstammdaten.md)
 - [Ereignisse](crm/ereignisse.md)
 - [Verkaufsbeleg anlegen](crm/verkaufsbeleg-anlegen.md)
 - [Verkaufsbeleg Detailansicht](crm/verkaufsbeleg-detailansicht.md)

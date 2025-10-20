@@ -1,5 +1,7 @@
 # Stundenkonto
 [⬅ Zurück zur Übersicht](../index.md)
+
+Last edited by Tina · 2025-10-20 · Vertrauensstufe B
 ## Einleitung
 
 - **Zweck**  
