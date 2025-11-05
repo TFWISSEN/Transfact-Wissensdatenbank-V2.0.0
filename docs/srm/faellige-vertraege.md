@@ -1,1 +1,2 @@
-Diese Seite befindet sich derzeit im Aufbau. 🚧
+# Fällige Verträge
+[⬅ Zurück zur Übersicht](../index.md)
